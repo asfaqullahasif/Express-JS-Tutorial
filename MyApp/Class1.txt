@@ -1,0 +1,7 @@
+Step:1 => open command prompt and write the following cmd for create package.json file
+
+->npm init --y
+
+Step:2 =>To install Express-JS write the following cmd
+
+->npm install express --save.
