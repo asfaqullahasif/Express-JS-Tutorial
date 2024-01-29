@@ -14,7 +14,7 @@ app.get('/', function (req,res){
 app.get('/greet',function(req,res){
     res.send('<h1>Good morning Express-Js Learners <span style=\'font-size:100px;\'>&#128330;</span></h1>');
 })
-app.post('/crate', function(req,res){
+app.post('/create', function(req,res){
     res.send("<h1>The page is created</h1>");
 })
 app.put('/update',function(req,res){
