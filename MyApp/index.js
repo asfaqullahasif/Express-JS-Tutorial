@@ -11,6 +11,22 @@ app = express();
 app.get('/', function (req,res){
     res.end('My App Home page');
 })
+app.get('/greet',function(req,res){
+    res.send('<h1>Good morning Express-Js Learners <span style=\'font-size:100px;\'>&#128330;</span></h1>');
+})
+app.post('/crate', function(req,res){
+    res.send("<h1>The page is created</h1>");
+})
+app.put('/update',function(req,res){
+    res.end("<h1>The page is Updated</h1>");
+
+})
+app.delete('/delete',function(req,res){
+    res.send("<h1>The page is deleted</h1>");
+})
+app.get('/contact', function(req,res){
+    res.send("<h1>I'm the Contact Page!</h1>")
+})
 // In the above line we have just create  get route method to show a message in the browser.
 
 // N.B: you have to remember that you can show message in the browser using only get method no other method.

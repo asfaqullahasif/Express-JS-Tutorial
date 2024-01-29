@@ -1,0 +1,12 @@
+Today we learn about Routing.
+
+Q.what is route?
+The answer is, route is a pathway to communicate in indifferent pages of a web application or  website.
+
+syntax to define a rout in express-js
+
+app.http-methodName('/URI[the name you put in the browser]',function(req,res){
+res.send("message body");
+        OR
+res.end("Message body that you want to show in the browser");
+})
