@@ -5,7 +5,7 @@ const {response} = require("express");
 after install express you have to create index.js file and at
  the top of it you should import express-js by this  line of code
  */
-app = express();
+ const app = express();
 // after that you should initial express-js by above line of code
 
 app.get('/', function (req,res){
